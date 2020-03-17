@@ -59,11 +59,13 @@ nav>ul>li:hover{
 
 }
 img{
-    width:400px;
-    height:400px;
+    margin-top: 80px;
+    width:200px;
+    height:200px;
     border-radius:100%;
     float:left;
     margin-right:100px;
+    margin-left: 100px;
 }
 #clear{
     clear:left;
@@ -73,4 +75,32 @@ img{
     border: transparent;
     font-size: 40px;
 
+}
+#homeinfo{
+    margin-top: 80px;
+    padding-top: 70px;
+}
+#name{
+    padding-top: 70px;
+    margin-left: 50px;
+
+
+}
+h1{
+    text-align: center;
+}
+.border{
+    border-bottom:  2px solid gray;
+}
+.indexLists{
+    margin-left: 50px;
+    padding: 20px;
+    
+}
+.links{
+    font-size:25px ;
+    display: inline;
+    float: left;
+    color: black;
+    
 }
