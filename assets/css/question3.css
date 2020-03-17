@@ -1,12 +1,23 @@
+
 table{
     border: 1px solid black;
     float: left;
-    margin-left: 10px;
+    margin: 30px;
+    margin-top: 50px;
+    
 }
+
 #black{
     background-color: black;
     height: 30px;
     width: 80px;
+   
+}
+#black1{
+    background-color: black;
+    height: 30px;
+    width: 40px;
+   
 }
 #red{
     background-color: red;
@@ -70,3 +81,8 @@ table{
     height: 5px;
     width: 5px;
 }
+h1{
+    text-align: center;
+}
+
+

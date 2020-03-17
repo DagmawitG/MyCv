@@ -51,6 +51,7 @@ nav>ul>li{
 }
 nav>ul>li>a{
     text-decoration:none;
+    color:black ;
 }
 nav>ul>li:hover{
     background-color:#ffffff;
@@ -66,4 +67,10 @@ img{
 }
 #clear{
     clear:left;
+}
+#blogTitle{
+    text-align: center;
+    border: transparent;
+    font-size: 40px;
+
 }

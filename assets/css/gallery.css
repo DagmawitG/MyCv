@@ -1,13 +1,39 @@
 #heading{
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:1rem ;
+    float: left;
     font-style: normal;
-    position:relative;
-    padding:25px;
-   width:100%;
-   border-bottom:5px darkgray solid ;
+    
   
+  
+  
+
+}
+body{
+    background-color:lightgray;
+   
+}
+header{
+    background-color: rgba(110, 50, 100, 1.6);
+    position: fixed;
+     width:100%;
+   top:0;
+
+}
+nav>ul>li{
+    display:inline-block;
+    padding:10px 3px;
+    font-size:30px;
+    margin:5px;
+    float: right;
+}
+nav>ul>li>a{
+    color:black ;
+    text-decoration:none;
+}
+nav>ul>li:hover{
+    background-color:#ffffff;
+
 
 }
 
