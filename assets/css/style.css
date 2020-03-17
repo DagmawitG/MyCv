@@ -2,8 +2,16 @@
     margin:0;
     padding:0;
 }
+/* table>form {
+    border: 2px solid black;
+
+
+} */
+table>td:nth-of-type(1){
+    padding-top: 30px;
+}
 body{
-    background-color:skyblue;
+    background-color:lightgray;
     /* border:solid 10px lightgray; */
     margin:10px auto;
 }
@@ -37,14 +45,16 @@ font-size:15px;
 nav>ul>li{
     display:inline-block;
     padding:10px 3px;
-    font-size:20px;
+    font-size:30px;
     margin:5px;
+    float: right;
 }
 nav>ul>li>a{
     text-decoration:none;
 }
 nav>ul>li:hover{
     background-color:#ffffff;
+
 
 }
 img{
