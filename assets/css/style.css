@@ -101,6 +101,20 @@ h1{
     font-size:25px ;
     display: inline;
     float: left;
-    color: black;
     
+    
+}
+.form{
+    padding: 30px;
+    margin-left: 40px;
+    border-spacing:10px ;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 20px;
+  
+    
+}
+#map{
+    padding: 50px;
+    margin-left: 60px; 
 }
