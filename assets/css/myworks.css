@@ -1,0 +1,45 @@
+header{
+    background-color: rgba(110, 50, 100, 1.6);
+    position: fixed;
+   width:100%;
+   top:0;
+}
+body{
+    background-color:lightgray;
+}
+nav>ul>li{
+    display:inline-block;
+    padding:10px 3px;
+    font-size:30px;
+    margin:5px;
+    float: right;
+}
+nav>ul>li>a{
+    text-decoration:none;
+    color:black ;
+}
+nav>ul>li:hover{
+    background-color:#ffffff;
+
+
+}
+.myworks{
+   text-align: justify;
+   margin-top: 10%;
+   margin-left: 150px;
+   margin-right: 50px;
+   height: 300px;
+   padding: 30px;
+  
+  
+}
+h1{
+    text-align: center;
+    font-size:50px ;
+}
+.link{
+    text-decoration:none;
+    color:black ;
+    font-size: 30px;
+
+}
