@@ -20,7 +20,8 @@ nav>ul>li>a{
     color:black ;
 }
 nav>ul>li:hover{
-    background-color:#ffffff;
+    background-color:lightgray;
+    border-radius: 100%;
 
 
 }

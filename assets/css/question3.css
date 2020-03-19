@@ -20,7 +20,8 @@ nav>ul>li>a{
     color:black ;
 }
 nav>ul>li:hover{
-    background-color:#ffffff;
+    background-color:lightgray;
+    border-radius: 100%;
 
 
 }
@@ -35,45 +36,62 @@ table{
     float: left;
     margin: 30px;
     margin-top: 50px;
+    border-collapse: collapse;
     
 }
 
-#black{
+#blackLarge{
     background-color: black;
     height: 30px;
-    width: 80px;
+    width: 120px;
    
 }
 #black1{
     background-color: black;
     height: 30px;
-    width: 40px;
+    width: 30px;
    
 }
-#red{
+#redLarge{
     background-color: red;
     height: 30px;
-    width: 80px;
+    width: 120px;
 }
 #orange{
     background-color: orange;
     height: 30px;
-    width: 25px;
+    width: 45px;
 }
-#yellow{
+#yellowLarge{
     background-color: yellow;
     height: 30px;
-    width: 40px;
+    width: 120px;
 }
 #green{
     background-color: green;
     height: 30px;
     width: 25px;
 }
+#greenMedium{
+    background-color: green;
+    height: 30px;
+    width: 45px;
+}
+#greenLarge{
+    background-color: green;
+    height: 30px;
+    width: 60px;
+
+}
 #white{
     background-color: white;
     height: 30px;
-    width: 25px;
+    width: 45px;
+}
+#whiteLarge{
+    background-color: white;
+    height: 30px;
+    width: 60px;
 }
 #white1{
     background-color: white;
@@ -88,12 +106,32 @@ table{
 #red1{
     background-color: red;
     height: 30px;
-    width: 25px;
+    width: 35px;
+}
+#red2{
+    background-color: red;
+    height: 30px;
+    width: 50px;
+}
+#redMedium{
+    background-color: red;
+    height: 30px;
+    width: 100px;
 }
 #blue{
     background-color: blue;
     height: 30px;
     width: 80px;
+}
+#blueMedium{
+    background-color: blue;
+    height: 30px;
+    width: 100px;
+}
+#blueLarge{
+    background-color: blue;
+    height: 30px;
+    width: 120px;
 }
 #blue1{
     background-color: blue;
@@ -112,10 +150,17 @@ table{
     height: 5px;
     width: 5px;
 }
+#yellowMedium{
+    background-color: yellow;
+    height: 30px;
+    width: 45px;
+}
 h1{
     text-align: center;
 }
 .names{
+    column-span:"3";
+
     
 }
 

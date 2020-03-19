@@ -20,7 +20,8 @@ nav>ul>li>a{
     color:black ;
 }
 nav>ul>li:hover{
-    background-color:#ffffff;
+    background-color:lightgray;
+    border-radius: 100%;
 
 
 }
@@ -34,6 +35,7 @@ table{
   margin-left: 30%;
   margin-right: 30%;
  margin-top:20px;
+ border-collapse: collapse;
  
 }
 td{

@@ -32,7 +32,8 @@ nav>ul>li>a{
     text-decoration:none;
 }
 nav>ul>li:hover{
-    background-color:#ffffff;
+    background-color:lightgray;
+    border-radius: 100%;
 
 
 }
