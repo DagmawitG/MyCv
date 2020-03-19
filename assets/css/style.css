@@ -117,3 +117,10 @@ h1{
     padding: 50px;
     margin-left: 60px; 
 }
+@media screen and (max-width: 700px) {
+    nav>ul>li>a {
+        float: none;
+		width: 98%;
+		padding: 1%;
+    }
+}
